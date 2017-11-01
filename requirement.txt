@@ -1,0 +1,6 @@
+# Django
+django
+
+# deploy
+gevent
+gunicorn
