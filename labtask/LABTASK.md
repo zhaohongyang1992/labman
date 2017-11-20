@@ -7,7 +7,7 @@
 | :--------:   | :-----:   | :----: |
 | project_id |  int   |   项目id    |
 | project_name | varchar  |   项目名称     |
-| owner_id | int      | 项目负责人，user外键    |
+| owner | int      | 项目负责人，user外键    |
 |project_status| int| 项目当前状态 |
 |project_info| varchar| 项目简介 |
 |start_time | datetime | 项目开始时间 |
@@ -25,6 +25,28 @@
 | project_id | int | 任务所属项目 |
 | start_time | datetime | 任务开始时间 |
 | end_time | datetime | 任务结束时间 |
+
+
+### 2. 项目管理
+
+#### 2-1 项目申请
+
+    申请项目需要填写项目名称、申请人、项目简介、开始及结束时间等重要信息，并填写项目下的子任务及子任务相关信息。
+
+#### 2-2 项目编辑
+
+    包括项目预计时间修改、状态修改、完成情况等内容的编辑修改。
+
+#### 2-3 项目查看
+
+    项目状态的查看，检索项目等。
+
+#### 2-3 统计数据
+
+    按时间、数量、人物等维度展示项目的统计数据。
+
+
+
 
 
 
