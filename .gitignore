@@ -8,3 +8,7 @@ __pycache__/
 
 # online setting
 config/online_setting.py
+
+# db
+db.sqlite3
+labtask/migrations/0001_initial.py
